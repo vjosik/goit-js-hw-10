@@ -80,6 +80,6 @@ form.addEventListener('submit', event => {
       });
     });
 
-  // Очищаємо форму (опціонально)
-  // event.target.reset();
+  
+  event.target.reset();
 });
